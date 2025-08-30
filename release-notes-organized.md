@@ -1,6 +1,9 @@
 # Claude Code Release Notes
 *Note: Release dates are not provided in the original notes*
 
+## Version 1.0.97
+• Settings: /doctor now validates permission rule syntax and suggests corrections
+
 ## Version 1.0.94
 • Vertex: add support for global endpoints for supported models
 • /memory command now allows direct editing of all imported memory files
