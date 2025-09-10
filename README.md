@@ -2,6 +2,16 @@
 
 *注：原始记录中未提供发布日期*
 
+## 版本 1.0.110 - 终端设置与MCP增强
+
+• /terminal-setup 命令现在支持 WezTerm
+• MCP：OAuth 令牌现在会在过期前主动刷新
+• 修复了后台 Bash 进程的可靠性问题
+
+## 版本 1.0.109 - SDK流式消息支持
+
+• SDK：通过 `--include-partial-messages` CLI 标志添加了部分消息流式传输支持
+
 ## 版本 1.0.106 - Windows路径权限匹配修复
 
 • Windows：修复路径权限匹配，现在统一使用POSIX格式（例如：`Read(//c/Users/...)`）
