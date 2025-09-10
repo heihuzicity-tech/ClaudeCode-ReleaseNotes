@@ -1,6 +1,9 @@
 # Claude Code Release Notes
 *Note: Release dates are not provided in the original notes*
 
+## Version 1.0.106
+• Windows: Fixed path permission matching to consistently use POSIX format (e.g., `Read(//c/Users/...)`)
+
 ## Version 1.0.97
 • Settings: /doctor now validates permission rule syntax and suggests corrections
 
