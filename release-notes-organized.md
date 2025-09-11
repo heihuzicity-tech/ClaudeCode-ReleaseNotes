@@ -1,6 +1,10 @@
 # Claude Code Release Notes
 *Note: Release dates are not provided in the original notes*
 
+## Version 1.0.111
+• /model now validates provided model names
+• Fixed Bash tool crashes caused by malformed shell syntax parsing
+
 ## Version 1.0.110
 • /terminal-setup command now supports WezTerm
 • MCP: OAuth tokens now proactively refresh before expiration
